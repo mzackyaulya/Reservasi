@@ -42,7 +42,7 @@ class ReservasiController extends Controller
      */
     public function create(Request $request)
     {
-        $lapangans = Lapangan::where('status', 'aktif')->get();
+        $lapangans = Lapangan::where('status', 'Tersedia')->get();
         $lapanganTerpilih = null;
 
         if ($request->has('lapangan_id')) {

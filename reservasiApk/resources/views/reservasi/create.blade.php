@@ -74,7 +74,7 @@
 
                 <div class="alert alert-info small">
                     Total harga akan dihitung otomatis berdasarkan harga lapangan dan durasi sewa,
-                    lalu diproses melalui pembayaran Midtrans.
+                    lalu diproses melalui pembayaran.
                 </div>
 
                 {{-- Tombol --}}

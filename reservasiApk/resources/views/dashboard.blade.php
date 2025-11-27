@@ -110,12 +110,11 @@
                                                 </p>
                                             @endif
 
-                                            <a href="{{ url('reservasi/create?lapangan=' . $lapangan->id) }}"
-                                               class="btn btn-primary px-4 py-2 rounded-pill fw-semibold">
+                                            <a href="{{ route('reservasi.create', ['lapangan_id' => $lapangan->id]) }}"
+                                            class="btn btn-primary px-4 py-2 rounded-pill fw-semibold">
                                                 Book Now
                                             </a>
                                         </div>
-
                                     </div>
                                 </div>
                             @endforeach
