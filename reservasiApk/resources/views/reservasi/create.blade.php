@@ -80,11 +80,11 @@
                 {{-- Tombol --}}
                 <div class="d-flex justify-content-between mt-4">
                     <a href="{{ route('reservasi.index') }}" class="btn btn-secondary px-4">
-                        Kembali
+                        Cancel
                     </a>
 
                     <button type="submit" class="btn btn-primary px-4">
-                        Lanjut ke Pembayaran
+                        Payment
                     </button>
                 </div>
 
