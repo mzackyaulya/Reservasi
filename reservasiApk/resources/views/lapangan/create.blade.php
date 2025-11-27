@@ -53,10 +53,10 @@
                 {{-- Status --}}
                 <div class="mb-3">
                     <label class="form-label fw-semibold">Status Lapangan</label>
-                    <select name="status" class="form-select">
-                        <option value="aktif" {{ old('status') == 'aktif' ? 'selected' : '' }}>Aktif</option>
-                        <option value="Terisi" {{ old('status') == 'Terisi' ? 'selected' : '' }}>Terisi</option>
-                        <option value="nonaktif" {{ old('status') == 'nonaktif' ? 'selected' : '' }}>Nonaktif</option>
+                    <select name="status" class="form-select" required>
+                        <option value="Tersedia"  {{ old('status', $lapangan->status ?? '') == 'Tersedia' ? 'selected' : '' }}>Tersedia</option>
+                        <option value="Perbaikan" {{ old('status', $lapangan->status ?? '') == 'Perbaikan' ? 'selected' : '' }}>Perbaikan</option>
+                        <option value="Terisi"    {{ old('status', $lapangan->status ?? '') == 'Terisi' ? 'selected' : '' }}>Terisi</option>
                     </select>
                 </div>
 

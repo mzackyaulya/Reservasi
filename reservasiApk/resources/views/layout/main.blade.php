@@ -8,7 +8,7 @@
     <title>@yield('title')</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="shortcut icon" type="image/x-icon" href="{{ url('assets/images/logoh.jpg') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url('assets/images/LOGO.png') }}" />
 
     <!-- ========================= CSS here ========================= -->
     <link rel="stylesheet" href="{{ url('assets/css/bootstrap.min.css') }}" />
@@ -51,7 +51,6 @@
     }
 
     .navbar-brand img {
-        border-radius: 50%;
         object-fit: cover;
         width: 65px;
         height: 75px;
@@ -80,7 +79,7 @@
                         <nav class="navbar navbar-expand-lg">
                             <a class="navbar-brand" href="/">
                                 {{-- logo putih (awal) --}}
-                                <img src="{{ url('assets/images/logoh.jpg') }}" alt="Logo" class="logo-light" height="80px">
+                                <img src="{{ url('assets/images/TPlogo.png') }}" alt="Logo" class="logo-light" height="80px">
                             </a>
                             <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
                                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -179,6 +178,7 @@
     </a>
 
     <!-- ========================= JS here ========================= -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script src="{{ url('assets/js/bootstrap.min.js') }}"></script>
     <script src="{{ url('assets/js/wow.min.js') }}"></script>
     <script src="{{ url('assets/js/tiny-slider.js') }}"></script>
